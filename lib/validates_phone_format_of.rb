@@ -1,5 +1,8 @@
 require 'active_model'
 
+module ValidatesPhoneFormatOf
+end
+
 module ActiveModel
   module Validations
     class PhoneFormatValidator < EachValidator
