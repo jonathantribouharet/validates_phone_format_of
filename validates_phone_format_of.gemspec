@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.summary = "Validate phone numbers against E.164 format with this Ruby on Rails gem"
   s.description = s.summary
   s.homepage = 'https://github.com/jonathantribouharet/validates_phone_format_of'
-  s.version = '1.0.1'
+  s.version = '1.0.2'
   s.files = `git ls-files`.split("\n")
   s.require_paths = ['lib']
   s.authors = ['Jonathan TRIBOUHARET']

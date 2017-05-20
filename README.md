@@ -23,6 +23,11 @@ class User < ActiveRecord::Base
 	# Or
 	validates_phone_format_of :phone
 
+	# Same thing as
+	validates_format_of :phone, with: ValidatesPhoneFormatOf::Regexp
+	# Or
+	validates_format_of :phone, with: /\A\+?[1-9]\d{1,14}\z/
+
 end
 ```
 

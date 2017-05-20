@@ -1,13 +1,14 @@
 require 'active_model'
 
 module ValidatesPhoneFormatOf
+  Regexp = /\A\+?[1-9]\d{1,14}\z/
 end
 
 module ActiveModel
   module Validations
     class PhoneFormatValidator < EachValidator
       def validate_each(record, attribute, value)
-        record.errors.add(attribute, :invalid, options.merge({value: value})) if value.to_s !~ /\A\+?[1-9]\d{1,14}\z/
+        record.errors.add(attribute, :invalid, options.merge({value: value})) if value.to_s !~ ValidatesPhoneFormatOf::Regexp
       end
     end
 
