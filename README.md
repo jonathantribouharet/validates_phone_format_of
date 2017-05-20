@@ -1,5 +1,6 @@
 # validates_phone_format_of
 
+[![CI Status](http://img.shields.io/travis/jonathantribouharet/validates_phone_format_of.svg)](https://travis-ci.org/jonathantribouharet/validates_phone_format_of)
 [![Gem Version](https://badge.fury.io/rb/validates_phone_format_of.svg)](http://badge.fury.io/rb/validates_phone_format_of)
 
 Validate phone numbers against E.164 format.
