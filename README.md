@@ -31,6 +31,12 @@ class User < ActiveRecord::Base
 end
 ```
 
+## Others libraries useful
+
+- [intl-tel-input](https://github.com/jackocnr/intl-tel-input) Javascript library forcing users to set the region
+- [intl-tel-input-rails](https://github.com/jonathantribouharet/intl-tel-input-rails) Gem for `intl-tel-input`
+- [global_phone](https://github.com/sstephenson/global_phone)
+
 ## Author
 
 - [Jonathan Tribouharet](https://github.com/jonathantribouharet) ([@johntribouharet](https://twitter.com/johntribouharet))
