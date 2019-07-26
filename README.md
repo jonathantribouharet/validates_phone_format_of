@@ -11,7 +11,7 @@ validates_phone_format_of is distributed as a gem, which is how it should be use
 
 Include the gem in your Gemfile:
 
-    gem 'validates_phone_format_of', '~> 1.0'
+    gem 'validates_phone_format_of', '~> 2.0'
 
 ## Usage
 
@@ -35,13 +35,12 @@ end
 ## Others libraries useful
 
 - [intl-tel-input](https://github.com/jackocnr/intl-tel-input) Javascript library forcing users to set the region
-- [intl-tel-input-rails](https://github.com/jonathantribouharet/intl-tel-input-rails) Gem for `intl-tel-input`
 - [global_phone](https://github.com/sstephenson/global_phone)
 
 ## Author
 
-- [Jonathan Tribouharet](https://github.com/jonathantribouharet) ([@johntribouharet](https://twitter.com/johntribouharet))
+- [Jonathan VUKOVICH-TRIBOUHARET](https://github.com/jonathantribouharet) ([@johnvuko](https://twitter.com/johnvuko))
 
 ## License
 
-validates_phone_format_of is released under the MIT license. See the LICENSE file for more info.
+This project is released under the MIT license. See the LICENSE file for more info.
