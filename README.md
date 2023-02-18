@@ -11,7 +11,7 @@ validates_phone_format_of is distributed as a gem, which is how it should be use
 
 Include the gem in your Gemfile:
 
-    gem 'validates_phone_format_of', '~> 2.0'
+    gem 'validates_phone_format_of', '~> 3.0'
 
 ## Usage
 
