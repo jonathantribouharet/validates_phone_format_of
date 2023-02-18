@@ -28,7 +28,7 @@ describe ValidatesPhoneFormatOf do
     end
   end
 
-  ['test', '0000', '(312) 555-1212'].each do |phone|
+  ['test', '0000', '(312) 555-1212', '3125551212'].each do |phone|
     it "#{phone} is not valid" do
       user = @user_class.new(phone)
       expect(user.valid?).to_not be_truthy

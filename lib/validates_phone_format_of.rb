@@ -1,7 +1,7 @@
 require 'active_model'
 
 module ValidatesPhoneFormatOf
-  Regexp = /\A\+?[1-9]\d{1,14}\z/
+  Regexp = /\A\+\d{1,15}\z/
 end
 
 module ActiveModel

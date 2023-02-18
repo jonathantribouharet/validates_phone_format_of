@@ -27,7 +27,7 @@ class User < ActiveRecord::Base
 	# Same thing as
 	validates_format_of :phone, with: ValidatesPhoneFormatOf::Regexp
 	# Or
-	validates_format_of :phone, with: /\A\+?[1-9]\d{1,14}\z/
+	validates_format_of :phone, with: /\A\+\d{1,15}\z/
 
 end
 ```
