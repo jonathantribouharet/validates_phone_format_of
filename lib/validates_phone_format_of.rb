@@ -8,7 +8,7 @@ module ActiveModel
   module Validations
     class PhoneFormatValidator < EachValidator
       def validate_each(record, attribute, value)
-        record.errors.add(attribute, :invalid_phone, options.merge({:value => value})) if value.to_s !~ ValidatesPhoneFormatOf::Regexp
+        record.errors.add(attribute, :invalid_phone, **options.merge({:value => value})) if value.to_s !~ ValidatesPhoneFormatOf::Regexp
       end
     end
 
